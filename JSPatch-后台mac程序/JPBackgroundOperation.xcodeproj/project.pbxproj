@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162308C31E84C83600601ED7 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 162308BE1E84C83600601ED7 /* NSData+AES.m */; };
+		162308C41E84C83600601ED7 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 162308C01E84C83600601ED7 /* NSData+Base64.m */; };
+		162308C51E84C83600601ED7 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 162308C21E84C83600601ED7 /* NSString+Base64.m */; };
+		162308C81E84CA7500601ED7 /* NSTJsonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 162308C71E84CA7500601ED7 /* NSTJsonTool.m */; };
+		16479E131E9E5B62005E46FD /* cert.der in Resources */ = {isa = PBXBuildFile; fileRef = 16479E111E9E5B62005E46FD /* cert.der */; };
+		16479E141E9E5B62005E46FD /* pkcs.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 16479E121E9E5B62005E46FD /* pkcs.p12 */; };
+		166629111E7BC51F00C72AD4 /* Security.m in Sources */ = {isa = PBXBuildFile; fileRef = 166629101E7BC51F00C72AD4 /* Security.m */; };
+		166629131E7BC52900C72AD4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166629121E7BC52900C72AD4 /* Security.framework */; };
+		166629141E7BC52E00C72AD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F125AC1799345200899C56 /* Foundation.framework */; };
+		1666291D1E7BD07200C72AD4 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 1666291C1E7BD07200C72AD4 /* main.js */; };
+		66E1003F85459949F284FF4D /* libPods-JPBackgroundOperation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F5681A41CF3A140BEDE9244 /* libPods-JPBackgroundOperation.a */; };
+		A7F125A81799345200899C56 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F125A71799345200899C56 /* Cocoa.framework */; };
+		A7F125B21799345200899C56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7F125B01799345200899C56 /* InfoPlist.strings */; };
+		A7F125B41799345200899C56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F125B31799345200899C56 /* main.m */; };
+		A7F125B81799345200899C56 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A7F125B61799345200899C56 /* Credits.rtf */; };
+		A7F125BB1799345200899C56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F125BA1799345200899C56 /* AppDelegate.m */; };
+		A7F125BE1799345200899C56 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7F125BC1799345200899C56 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		162308BD1E84C83600601ED7 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+AES.h"; path = "../NSData+AES.h"; sourceTree = "<group>"; };
+		162308BE1E84C83600601ED7 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+AES.m"; path = "../NSData+AES.m"; sourceTree = "<group>"; };
+		162308BF1E84C83600601ED7 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "../NSData+Base64.h"; sourceTree = "<group>"; };
+		162308C01E84C83600601ED7 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "../NSData+Base64.m"; sourceTree = "<group>"; };
+		162308C11E84C83600601ED7 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Base64.h"; path = "../NSString+Base64.h"; sourceTree = "<group>"; };
+		162308C21E84C83600601ED7 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Base64.m"; path = "../NSString+Base64.m"; sourceTree = "<group>"; };
+		162308C61E84CA7500601ED7 /* NSTJsonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSTJsonTool.h; path = ../NSTJsonTool.h; sourceTree = "<group>"; };
+		162308C71E84CA7500601ED7 /* NSTJsonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTJsonTool.m; path = ../NSTJsonTool.m; sourceTree = "<group>"; };
+		16479E111E9E5B62005E46FD /* cert.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = cert.der; sourceTree = "<group>"; };
+		16479E121E9E5B62005E46FD /* pkcs.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pkcs.p12; sourceTree = "<group>"; };
+		1666290F1E7BC51F00C72AD4 /* Security.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Security.h; path = ../Security.h; sourceTree = "<group>"; };
+		166629101E7BC51F00C72AD4 /* Security.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Security.m; path = ../Security.m; sourceTree = "<group>"; };
+		166629121E7BC52900C72AD4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1666291C1E7BD07200C72AD4 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		8F5681A41CF3A140BEDE9244 /* libPods-JPBackgroundOperation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JPBackgroundOperation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F125A41799345200899C56 /* JPBackgroundOperation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPBackgroundOperation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F125A71799345200899C56 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A7F125AA1799345200899C56 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A7F125AB1799345200899C56 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A7F125AC1799345200899C56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7F125AF1799345200899C56 /* JPBackgroundOperation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JPBackgroundOperation-Info.plist"; sourceTree = "<group>"; };
+		A7F125B11799345200899C56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7F125B31799345200899C56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7F125B51799345200899C56 /* JPBackgroundOperation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JPBackgroundOperation-Prefix.pch"; sourceTree = "<group>"; };
+		A7F125B71799345200899C56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A7F125B91799345200899C56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7F125BA1799345200899C56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7F125BD1799345200899C56 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DED2A601B75164684F8DC997 /* Pods-JPBackgroundOperation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPBackgroundOperation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JPBackgroundOperation/Pods-JPBackgroundOperation.debug.xcconfig"; sourceTree = "<group>"; };
+		F51E094D237BE1664C55B0DB /* Pods-JPBackgroundOperation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPBackgroundOperation.release.xcconfig"; path = "Pods/Target Support Files/Pods-JPBackgroundOperation/Pods-JPBackgroundOperation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7F125A11799345200899C56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166629141E7BC52E00C72AD4 /* Foundation.framework in Frameworks */,
+				166629131E7BC52900C72AD4 /* Security.framework in Frameworks */,
+				A7F125A81799345200899C56 /* Cocoa.framework in Frameworks */,
+				66E1003F85459949F284FF4D /* libPods-JPBackgroundOperation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16479E151E9E5BAB005E46FD /* Encrypt Tools */ = {
+			isa = PBXGroup;
+			children = (
+				162308C61E84CA7500601ED7 /* NSTJsonTool.h */,
+				162308C71E84CA7500601ED7 /* NSTJsonTool.m */,
+				162308BD1E84C83600601ED7 /* NSData+AES.h */,
+				162308BE1E84C83600601ED7 /* NSData+AES.m */,
+				162308BF1E84C83600601ED7 /* NSData+Base64.h */,
+				162308C01E84C83600601ED7 /* NSData+Base64.m */,
+				162308C11E84C83600601ED7 /* NSString+Base64.h */,
+				162308C21E84C83600601ED7 /* NSString+Base64.m */,
+			);
+			path = "Encrypt Tools";
+			sourceTree = "<group>";
+		};
+		16479E161E9E5BDF005E46FD /* RSA Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1666290F1E7BC51F00C72AD4 /* Security.h */,
+				166629101E7BC51F00C72AD4 /* Security.m */,
+			);
+			path = "RSA Tools";
+			sourceTree = "<group>";
+		};
+		9A204AC658FE57BEF7E8730A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DED2A601B75164684F8DC997 /* Pods-JPBackgroundOperation.debug.xcconfig */,
+				F51E094D237BE1664C55B0DB /* Pods-JPBackgroundOperation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7F1259B1799345200899C56 = {
+			isa = PBXGroup;
+			children = (
+				A7F125AD1799345200899C56 /* JPBackgroundOperation */,
+				A7F125A61799345200899C56 /* Frameworks */,
+				A7F125A51799345200899C56 /* Products */,
+				9A204AC658FE57BEF7E8730A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A7F125A51799345200899C56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7F125A41799345200899C56 /* JPBackgroundOperation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7F125A61799345200899C56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				166629121E7BC52900C72AD4 /* Security.framework */,
+				A7F125A71799345200899C56 /* Cocoa.framework */,
+				A7F125A91799345200899C56 /* Other Frameworks */,
+				8F5681A41CF3A140BEDE9244 /* libPods-JPBackgroundOperation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7F125A91799345200899C56 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7F125AA1799345200899C56 /* AppKit.framework */,
+				A7F125AB1799345200899C56 /* CoreData.framework */,
+				A7F125AC1799345200899C56 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A7F125AD1799345200899C56 /* JPBackgroundOperation */ = {
+			isa = PBXGroup;
+			children = (
+				16479E161E9E5BDF005E46FD /* RSA Tools */,
+				16479E151E9E5BAB005E46FD /* Encrypt Tools */,
+				1666291C1E7BD07200C72AD4 /* main.js */,
+				A7F125B91799345200899C56 /* AppDelegate.h */,
+				A7F125BA1799345200899C56 /* AppDelegate.m */,
+				A7F125BC1799345200899C56 /* MainMenu.xib */,
+				A7F125AE1799345200899C56 /* Supporting Files */,
+			);
+			path = JPBackgroundOperation;
+			sourceTree = "<group>";
+		};
+		A7F125AE1799345200899C56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16479E111E9E5B62005E46FD /* cert.der */,
+				16479E121E9E5B62005E46FD /* pkcs.p12 */,
+				A7F125AF1799345200899C56 /* JPBackgroundOperation-Info.plist */,
+				A7F125B01799345200899C56 /* InfoPlist.strings */,
+				A7F125B31799345200899C56 /* main.m */,
+				A7F125B51799345200899C56 /* JPBackgroundOperation-Prefix.pch */,
+				A7F125B61799345200899C56 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7F125A31799345200899C56 /* JPBackgroundOperation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F125C11799345200899C56 /* Build configuration list for PBXNativeTarget "JPBackgroundOperation" */;
+			buildPhases = (
+				0003E9F6CF9AC223376A6E7A /* [CP] Check Pods Manifest.lock */,
+				A7F125A01799345200899C56 /* Sources */,
+				A7F125A11799345200899C56 /* Frameworks */,
+				A7F125A21799345200899C56 /* Resources */,
+				7767B22A921BB066215C061F /* [CP] Embed Pods Frameworks */,
+				56A97D20E39047EDE0885544 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPBackgroundOperation;
+			productName = UrlTextView;
+			productReference = A7F125A41799345200899C56 /* JPBackgroundOperation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7F1259C1799345200899C56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Beyondcow;
+			};
+			buildConfigurationList = A7F1259F1799345200899C56 /* Build configuration list for PBXProject "JPBackgroundOperation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7F1259B1799345200899C56;
+			productRefGroup = A7F125A51799345200899C56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7F125A31799345200899C56 /* JPBackgroundOperation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7F125A21799345200899C56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16479E141E9E5B62005E46FD /* pkcs.p12 in Resources */,
+				A7F125B21799345200899C56 /* InfoPlist.strings in Resources */,
+				16479E131E9E5B62005E46FD /* cert.der in Resources */,
+				A7F125B81799345200899C56 /* Credits.rtf in Resources */,
+				1666291D1E7BD07200C72AD4 /* main.js in Resources */,
+				A7F125BE1799345200899C56 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0003E9F6CF9AC223376A6E7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		56A97D20E39047EDE0885544 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JPBackgroundOperation/Pods-JPBackgroundOperation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7767B22A921BB066215C061F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JPBackgroundOperation/Pods-JPBackgroundOperation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7F125A01799345200899C56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162308C81E84CA7500601ED7 /* NSTJsonTool.m in Sources */,
+				162308C51E84C83600601ED7 /* NSString+Base64.m in Sources */,
+				166629111E7BC51F00C72AD4 /* Security.m in Sources */,
+				A7F125B41799345200899C56 /* main.m in Sources */,
+				162308C41E84C83600601ED7 /* NSData+Base64.m in Sources */,
+				162308C31E84C83600601ED7 /* NSData+AES.m in Sources */,
+				A7F125BB1799345200899C56 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7F125B01799345200899C56 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F125B11799345200899C56 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7F125B61799345200899C56 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F125B71799345200899C56 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A7F125BC1799345200899C56 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F125BD1799345200899C56 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7F125BF1799345200899C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A7F125C01799345200899C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A7F125C21799345200899C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED2A601B75164684F8DC997 /* Pods-JPBackgroundOperation.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JPBackgroundOperation/JPBackgroundOperation-Prefix.pch";
+				INFOPLIST_FILE = "JPBackgroundOperation/JPBackgroundOperation-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7F125C31799345200899C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F51E094D237BE1664C55B0DB /* Pods-JPBackgroundOperation.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JPBackgroundOperation/JPBackgroundOperation-Prefix.pch";
+				INFOPLIST_FILE = "JPBackgroundOperation/JPBackgroundOperation-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7F1259F1799345200899C56 /* Build configuration list for PBXProject "JPBackgroundOperation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F125BF1799345200899C56 /* Debug */,
+				A7F125C01799345200899C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F125C11799345200899C56 /* Build configuration list for PBXNativeTarget "JPBackgroundOperation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F125C21799345200899C56 /* Debug */,
+				A7F125C31799345200899C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7F1259C1799345200899C56 /* Project object */;
+}

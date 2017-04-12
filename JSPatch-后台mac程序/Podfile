@@ -1,0 +1,8 @@
+
+platform:osx, ’10.10’
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target "JPBackgroundOperation" do
+	pod 'AFNetworking', '~> 3.1.0'
+end
