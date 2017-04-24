@@ -32,7 +32,7 @@
     // Insert code here to initialize your application
 
     //默认服务器地址
-    urlString = @"http://ts.kongjianjia.com/kjjbusiness/index.php/IosCode/index";
+    urlString = @"http://ts.ccsunday/IosCode/index";
 
     //设置网址高亮显示
     NSError *error = NULL;
